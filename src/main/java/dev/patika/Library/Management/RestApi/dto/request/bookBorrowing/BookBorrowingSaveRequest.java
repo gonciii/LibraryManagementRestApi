@@ -8,7 +8,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.sql.Date;
+import java.util.Date;
+
 
 @Data
 @NoArgsConstructor
@@ -19,13 +20,13 @@ public class BookBorrowingSaveRequest {
     @NotNull
     private String borrowerName;
 
-    @NotBlank
+
     private Date borrowingDate;
 
-    @NotBlank
+
     private Date returnDate;
 
-    @NotBlank
+
     private int bookId;
 
 }

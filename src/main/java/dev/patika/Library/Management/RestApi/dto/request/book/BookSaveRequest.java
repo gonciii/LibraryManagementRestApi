@@ -24,10 +24,9 @@ public class BookSaveRequest {
     @NotNull(message = "Stok bilgisi boş olamaz")
     private int stock;
 
-    @NotNull(message = "Yazar bilgisi boş olamaz")
     private Integer authorId;
 
-    @NotNull(message = "Yayıncı bilgisi boş olamaz")
+
     private Integer publisherId;
 
     private List<Integer> categoryId;
